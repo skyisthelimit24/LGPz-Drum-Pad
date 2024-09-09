@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LGP'z Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <h1>LGP'z Drum Pad</h1>
+    <div class="container">
+      <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <span class="sound">Kick</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">Snare</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <span class="sound">Rimshot</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">Clap</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">ClosedHat</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">OpenHat</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <span class="sound">Ride</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <span class="sound">Tom</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <span class="sound">Crash</span>
+        </div>
+      </div>
+    </div>
+    <audio data-key="65" src="sounds/Kick.wav"></audio>
+    <audio data-key="83" src="sounds/Snare.wav"></audio>
+    <audio data-key="68" src="sounds/Rimshot.wav"></audio>
+    <audio data-key="70" src="sounds/Clap.wav"></audio>
+    <audio data-key="71" src="sounds/Closedhat.wav"></audio>
+    <audio data-key="72" src="sounds/Openhat.wav"></audio>
+    <audio data-key="74" src="sounds/Ride.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/Crash.wav"></audio>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
